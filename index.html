@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ครัว 3 ป. - อาหารตามสั่ง นนทบุรี</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="spinner"></div>
+            <p id="loading-text">กำลังโหลด...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo" id="nav-logo">
+                <i class="fas fa-utensils"></i>
+                <span id="site-name">ครัว 3 ป.</span>
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" id="nav-home">หน้าแรก</a></li>
+                <li><a href="#menu" id="nav-menu">เมนู</a></li>
+                <li><a href="#about" id="nav-about">เกี่ยวกับเรา</a></li>
+                <li><a href="#gallery" id="nav-gallery">แกลเลอรี่</a></li>
+                <li><a href="#contact" id="nav-contact">ติดต่อ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 id="hero-title">ครัว 3 ป.</h1>
+            <p id="hero-subtitle">อาหารตามสั่ง รสชาติเข้มข้น ถึงเครื่อง ราคาประหยัด</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary" id="hero-btn-menu">
+                    <i class="fas fa-book-open"></i> ดูเมนู
+                </a>
+                <a href="tel:0619177557" class="btn btn-secondary" id="hero-btn-call">
+                    <i class="fas fa-phone"></i> โทรสั่งอาหาร
+                </a>
+            </div>
+            <div class="hero-info">
+                <span id="hero-hours"><i class="fas fa-clock"></i> เปิด 14:00 - 20:00 (จ-ศ) | 10:00 - 19:00 (ส-อา)</span>
+                <span id="hero-location"><i class="fas fa-map-marker-alt"></i> 74 กรุงเทพนนท์ 12 แยก 26 บางเขน นนทบุรี</span>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Features / Highlights -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="features-grid" id="features-grid">
+                <!-- จะถูกเติมจาก JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="menu-title">เมนูแนะนำ</h2>
+                <p id="menu-subtitle">อาหารตามสั่งสไตล์ครัว 3 ป. รสชาติจัดจ้าน</p>
+            </div>
+
+            <div class="menu-tabs" id="menu-tabs">
+                <!-- จะถูกเติมจาก JS -->
+            </div>
+
+            <div class="menu-grid" id="menu-grid">
+                <!-- จะถูกเติมจาก JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img id="about-img" src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600" alt="ครัว 3 ป.">
+                </div>
+                <div class="about-content">
+                    <h2 id="about-title">เกี่ยวกับครัว 3 ป.</h2>
+                    <p id="about-text">
+                        ร้านอาหารตามสั่งที่คัดสรรวัตถุดิบคุณภาพ ปรุงด้วยความใส่ใจในทุกขั้นตอน 
+                        เราภูมิใจในรสชาติอาหารไทยแท้ๆ ที่เข้มข้น ถึงเครื่อง ในราคาที่เข้าถึงได้
+                    </p>
+                    <div class="about-stats" id="about-stats">
+                        <!-- จะถูกเติมจาก JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="gallery-title">แกลเลอรี่</h2>
+                <p id="gallery-subtitle">บรรยากาศและเมนูอาหารของเรา</p>
+            </div>
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- จะถูกเติมจาก JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="contact-title">ติดต่อเรา</h2>
+                <p id="contact-subtitle">สั่งอาหารหรือสอบถามข้อมูลเพิ่มเติม</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" id="contact-info">
+                    <!-- จะถูกเติมจาก JS -->
+                </div>
+                <div class="contact-map">
+                    <iframe 
+                        id="map-iframe"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.0!2d100.5!3d13.8!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDQ4JzAwLjAiTiAxMDDCsDMwJzAwLjAiRQ!5e0!3m2!1sth!2sth!4v1" 
+                        width="100%" 
+                        height="350" 
+                        style="border:0; border-radius: 16px;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                    <a href="#" id="map-directions-link" class="map-directions-btn" target="_blank" rel="noopener">
+                        <i class="fas fa-diamond-turn-right"></i> เปิดนำทางใน Google Maps
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 id="footer-brand">ครัว 3 ป.</h3>
+                    <p id="footer-desc">อาหารตามสั่ง รสชาติเข้มข้น ถึงเครื่อง</p>
+                </div>
+                <div class="footer-social" id="footer-social">
+                    <!-- จะถูกเติมจาก JS -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p id="footer-copyright">© 2026 ครัว 3 ป. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Call Button (Mobile) -->
+    <a href="tel:0619177557" class="floating-call" id="floating-call">
+        <i class="fas fa-phone"></i>
+    </a>
+
+    <!-- Admin Panel Toggle -->
+    <button class="admin-toggle" id="admin-toggle" title="แอดมินแพนเนล">
+        <i class="fas fa-cog"></i>
+    </button>
+
+    <!-- Admin Password Gate Modal -->
+    <div class="admin-password-modal" id="admin-password-modal">
+        <div class="password-panel">
+            <div class="password-icon"><i class="fas fa-lock"></i></div>
+            <h3>เข้าสู่ระบบแอดมิน</h3>
+            <p>กรุณาใส่รหัสผ่านเพื่อเข้าแก้ไขเว็บไซต์</p>
+            <div class="password-input-group">
+                <input type="password" id="admin-password-input" placeholder="รหัสผ่าน" autocomplete="off">
+                <button type="button" class="password-toggle-visibility" id="toggle-password-visibility">
+                    <i class="fas fa-eye"></i>
+                </button>
+            </div>
+            <p class="password-error" id="password-error">
+                <i class="fas fa-exclamation-circle"></i> รหัสผ่านไม่ถูกต้อง กรุณาลองใหม่
+            </p>
+            <div class="password-actions">
+                <button class="btn btn-secondary" id="password-cancel">ยกเลิก</button>
+                <button class="btn btn-primary" id="password-submit">เข้าสู่ระบบ</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Panel Modal -->
+    <div class="admin-modal" id="admin-modal">
+        <div class="admin-panel">
+            <div class="admin-header">
+                <h3><i class="fas fa-cogs"></i> แพนเนลจัดการเว็บไซต์</h3>
+                <button class="admin-close" id="admin-close"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="admin-tabs">
+                <button class="admin-tab active" data-tab="general">ทั่วไป</button>
+                <button class="admin-tab" data-tab="hero">หน้าแรก</button>
+                <button class="admin-tab" data-tab="menu">เมนู</button>
+                <button class="admin-tab" data-tab="about">เกี่ยวกับ</button>
+                <button class="admin-tab" data-tab="contact">ติดต่อ</button>
+                <button class="admin-tab" data-tab="features">ไฮไลท์</button>
+                <button class="admin-tab" data-tab="gallery">แกลเลอรี่</button>
+                <button class="admin-tab" data-tab="social">โซเชียล</button>
+            </div>
+            <div class="admin-content" id="admin-content">
+                <!-- จะถูกเติมจาก JS -->
+            </div>
+            <div class="admin-actions">
+                <button class="btn btn-secondary" id="admin-reset">รีเซ็ตเป็นค่าเริ่มต้น</button>
+                <button class="btn btn-primary" id="admin-save">บันทึกการเปลี่ยนแปลง</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toast-message">บันทึกสำเร็จ!</span>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
